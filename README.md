@@ -1,5 +1,4 @@
 # SPTrans
-<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/ezefranca/SPTrans.svg?style=flat)](https://travis-ci.org/ezefranca/SPTrans)
 [![Version](https://img.shields.io/cocoapods/v/SPTrans.svg?style=flat)](http://cocoapods.org/pods/SPTrans)
@@ -28,6 +27,4 @@ ezefranca, ezequiel.ifsp@gmail.com
 ## License
 
 SPTrans is available under the MIT license. See the LICENSE file for more info.
-=======
-Biblioteca Wrapper para acesso a API Olho Vivo da SPTrans
->>>>>>> dc01c3f6b9a5f1db5d08b228be8709943a272e0d
+
