@@ -4,7 +4,7 @@ target 'SPTrans_Example' do
   pod 'SPTrans', :path => '../'
 
   target 'SPTrans_Tests' do
-    inherit! :search_paths
+   #inherit! :search_paths
 
     
   end
