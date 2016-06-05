@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LOGIN</key>
+	<string>/Login/Autenticar?token=</string>
+	<key>getArrivalTimesBusStop</key>
+	<string>/Previsao/Parada?codigoParada=</string>
+	<key>getArrivalTimeBusInABusStop</key>
+	<string>/Previsao?codigoParada=</string>
+	<key>getBusPosition</key>
+	<string>/Posicao?codigoLinha=</string>
+	<key>searchBusStopByBusLine</key>
+	<string>/Parada/BuscarParadasPorLinha?codigoLinha=</string>
+	<key>searchBusStop</key>
+	<string>/Parada/Buscar?termosBusca=</string>
+	<key>loadBusLineDetails</key>
+	<string>/Linha/CarregarDetalhes?codigoLinha=</string>
+	<key>searchBusLineDetail</key>
+	<string>/Linha/Buscar?termosBusca=</string>
+	<key>TOKEN</key>
+	<string></string>
+	<key>BASE_URL</key>
+	<string>http://api.olhovivo.sptrans.com.br/v0</string>
+</dict>
+</plist>
