@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ezefranca/SPTrans.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ezefranca'
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SPTrans/Classes/**/*'
+  s.source_files = 'SPTrans/Classes/*'
   s.dependency 'Alamofire', '~> 3.4'
 end
