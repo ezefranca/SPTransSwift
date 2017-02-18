@@ -1,0 +1,6 @@
+framework module SPTransSwift {
+  umbrella header "SPTransSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

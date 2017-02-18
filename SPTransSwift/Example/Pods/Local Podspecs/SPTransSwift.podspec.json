@@ -1,0 +1,22 @@
+{
+  "name": "SPTransSwift",
+  "version": "0.1.0",
+  "summary": "A short description of SPTransSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ezefranca/SPTransSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ezefranca": "ezequiel.ifsp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ezefranca/SPTransSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SPTransSwift/Classes/**/*"
+}

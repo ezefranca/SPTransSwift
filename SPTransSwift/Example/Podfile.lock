@@ -1,0 +1,16 @@
+PODS:
+  - SPTransSwift (0.1.0)
+
+DEPENDENCIES:
+  - SPTransSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SPTransSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPTransSwift: 8d76831d1b3f23409919b75fb24c6bf9c3c13ead
+
+PODFILE CHECKSUM: 7cf832aca56c24bfd422fa9274e2bc18e3b9c10e
+
+COCOAPODS: 1.2.0.beta.1

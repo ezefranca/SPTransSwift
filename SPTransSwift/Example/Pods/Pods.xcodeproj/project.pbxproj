@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030BF25B9D0E6346D4A1489336B02417 /* Pods-SPTransSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7227F152FE20BDCAE349E1C8EDC1E1C2 /* Pods-SPTransSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCD0103B57FB72D090283EC9BD0F33E /* Pods-SPTransSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13680B433EB0B44D9ADABBD8EC1E4 /* Pods-SPTransSwiftExample-dummy.m */; };
+		2817130C3B917394C8C764F62A14FB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5F5A33ACB8EE956C516A66840A3434EA /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09CC0EF5DAF129285F9F5E42DAD5ED4 /* Requester.swift */; };
+		66E75B788A81BD02936D732A2BCC8A3F /* SPTransSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D8DDF24B226A572EA84C6D0E739D82 /* SPTransSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7083CD7116B750BDA1DD3590C2230F09 /* SPTransSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA3A3D4E54929C324DCA6618BC24B9 /* SPTransSwift-dummy.m */; };
+		8BA5286D1E58E62700C08E15 /* SPTransClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5286B1E58E57600C08E15 /* SPTransClient.swift */; };
+		8C8EC0B0B5407FC2E3F28277930E874F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2BA66DE5E99AA1112B8065F7C73FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C764256CB58EC08F2B7BC9A6281DD94;
+			remoteInfo = SPTransSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B59AFD5B4C252C935F4EBB5B9BCB8C /* Pods-SPTransSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPTransSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1681FCB5F4F088C7DF8B3F3492AC3DE8 /* SPTransSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPTransSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ADA81B72D87CD89FD68D6E3683F06D /* Pods-SPTransSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPTransSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		19226A588EE72D7A81B9E66DD04D88AD /* Pods-SPTransSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPTransSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B25F0BB7E45A7BA051C08E778D3A545 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2945E7748CFBDABB181313DAED5229A3 /* SPTransSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPTransSwift.modulemap; sourceTree = "<group>"; };
+		30929F2A9FC6C38978325C57918CAA22 /* Pods_SPTransSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPTransSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA3A3D4E54929C324DCA6618BC24B9 /* SPTransSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPTransSwift-dummy.m"; sourceTree = "<group>"; };
+		329C0F7C8DDA25C36258A23B1F0203C4 /* Pods-SPTransSwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPTransSwiftExample-resources.sh"; sourceTree = "<group>"; };
+		32E727CE00669E0B6C2D629C06AF4AD9 /* Pods-SPTransSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPTransSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		3D93E27E36055FF99FB45BFF64C33FDD /* SPTransSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPTransSwift.xcconfig; sourceTree = "<group>"; };
+		45CA664917AC4FB9D8BBCE29A4B4AA14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548F298E2BB4C71BACD9C5CB68374F98 /* Pods-SPTransSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SPTransSwiftExample.modulemap"; sourceTree = "<group>"; };
+		7227F152FE20BDCAE349E1C8EDC1E1C2 /* Pods-SPTransSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPTransSwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		79D8DDF24B226A572EA84C6D0E739D82 /* SPTransSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPTransSwift-umbrella.h"; sourceTree = "<group>"; };
+		8BA5286B1E58E57600C08E15 /* SPTransClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTransClient.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98ED45BDE95FF2C8B31DBCDDB4DEB899 /* Pods-SPTransSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPTransSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAD13680B433EB0B44D9ADABBD8EC1E4 /* Pods-SPTransSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPTransSwiftExample-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF39F4838DC2006925AC165029F6C0B6 /* SPTransSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPTransSwift-prefix.pch"; sourceTree = "<group>"; };
+		F09CC0EF5DAF129285F9F5E42DAD5ED4 /* Requester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF48512C6032FFB0906E6597B9D1C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8EC0B0B5407FC2E3F28277930E874F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A63F2019F5587A3C08A03CD166398A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2817130C3B917394C8C764F62A14FB91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EFA08FB67F4128693474818020CCB9 /* SPTransSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C5C16A0FB62AE12093FA59995B4880A2 /* Classes */,
+			);
+			path = SPTransSwift;
+			sourceTree = "<group>";
+		};
+		1B5FBAB3421371303F922551F3E83F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30929F2A9FC6C38978325C57918CAA22 /* Pods_SPTransSwiftExample.framework */,
+				1681FCB5F4F088C7DF8B3F3492AC3DE8 /* SPTransSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6483A87F3147FBA1C97D516B9E77135A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CA664917AC4FB9D8BBCE29A4B4AA14 /* Info.plist */,
+				2945E7748CFBDABB181313DAED5229A3 /* SPTransSwift.modulemap */,
+				3D93E27E36055FF99FB45BFF64C33FDD /* SPTransSwift.xcconfig */,
+				31BA3A3D4E54929C324DCA6618BC24B9 /* SPTransSwift-dummy.m */,
+				EF39F4838DC2006925AC165029F6C0B6 /* SPTransSwift-prefix.pch */,
+				79D8DDF24B226A572EA84C6D0E739D82 /* SPTransSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPTransSwift";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78645550AB8DC03B5B1064BB00E11E2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FE3C344392D2DC65C35C51209EB6CA /* Pods-SPTransSwiftExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB31DCFD11E17BCC3E3DDE7ED16BF55D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1B5FBAB3421371303F922551F3E83F0C /* Products */,
+				78645550AB8DC03B5B1064BB00E11E2C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FE3C344392D2DC65C35C51209EB6CA /* Pods-SPTransSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				1B25F0BB7E45A7BA051C08E778D3A545 /* Info.plist */,
+				548F298E2BB4C71BACD9C5CB68374F98 /* Pods-SPTransSwiftExample.modulemap */,
+				98ED45BDE95FF2C8B31DBCDDB4DEB899 /* Pods-SPTransSwiftExample-acknowledgements.markdown */,
+				19226A588EE72D7A81B9E66DD04D88AD /* Pods-SPTransSwiftExample-acknowledgements.plist */,
+				BAD13680B433EB0B44D9ADABBD8EC1E4 /* Pods-SPTransSwiftExample-dummy.m */,
+				17ADA81B72D87CD89FD68D6E3683F06D /* Pods-SPTransSwiftExample-frameworks.sh */,
+				329C0F7C8DDA25C36258A23B1F0203C4 /* Pods-SPTransSwiftExample-resources.sh */,
+				7227F152FE20BDCAE349E1C8EDC1E1C2 /* Pods-SPTransSwiftExample-umbrella.h */,
+				08B59AFD5B4C252C935F4EBB5B9BCB8C /* Pods-SPTransSwiftExample.debug.xcconfig */,
+				32E727CE00669E0B6C2D629C06AF4AD9 /* Pods-SPTransSwiftExample.release.xcconfig */,
+			);
+			name = "Pods-SPTransSwiftExample";
+			path = "Target Support Files/Pods-SPTransSwiftExample";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C16A0FB62AE12093FA59995B4880A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F09CC0EF5DAF129285F9F5E42DAD5ED4 /* Requester.swift */,
+				8BA5286B1E58E57600C08E15 /* SPTransClient.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB31DCFD11E17BCC3E3DDE7ED16BF55D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2E26567BA284D777581A0B6A58C68 /* SPTransSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DBA2E26567BA284D777581A0B6A58C68 /* SPTransSwift */ = {
+			isa = PBXGroup;
+			children = (
+				01EFA08FB67F4128693474818020CCB9 /* SPTransSwift */,
+				6483A87F3147FBA1C97D516B9E77135A /* Support Files */,
+			);
+			name = SPTransSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44EBA1E785B37525397E7503D253011E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E75B788A81BD02936D732A2BCC8A3F /* SPTransSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEB69421BD2C7B65711EDEA0D24C2C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030BF25B9D0E6346D4A1489336B02417 /* Pods-SPTransSwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C764256CB58EC08F2B7BC9A6281DD94 /* SPTransSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AADA19166C5DE64D2780F769FA389DB /* Build configuration list for PBXNativeTarget "SPTransSwift" */;
+			buildPhases = (
+				8037B5406BA45F6E6AE614DE6C09EA9A /* Sources */,
+				5A63F2019F5587A3C08A03CD166398A1 /* Frameworks */,
+				44EBA1E785B37525397E7503D253011E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPTransSwift;
+			productName = SPTransSwift;
+			productReference = 1681FCB5F4F088C7DF8B3F3492AC3DE8 /* SPTransSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99883A9A825465D53C0500ABDC026613 /* Pods-SPTransSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1641F21B06C6CC303C49B6755E83DCDA /* Build configuration list for PBXNativeTarget "Pods-SPTransSwiftExample" */;
+			buildPhases = (
+				759A26EEF0DC872AEA9C6969F7ADD38C /* Sources */,
+				4DF48512C6032FFB0906E6597B9D1C4C /* Frameworks */,
+				4DEB69421BD2C7B65711EDEA0D24C2C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688AAFCE2A4FBD16E6C30C442EFAA619 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPTransSwiftExample";
+			productName = "Pods-SPTransSwiftExample";
+			productReference = 30929F2A9FC6C38978325C57918CAA22 /* Pods_SPTransSwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					99883A9A825465D53C0500ABDC026613 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B5FBAB3421371303F922551F3E83F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99883A9A825465D53C0500ABDC026613 /* Pods-SPTransSwiftExample */,
+				2C764256CB58EC08F2B7BC9A6281DD94 /* SPTransSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759A26EEF0DC872AEA9C6969F7ADD38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCD0103B57FB72D090283EC9BD0F33E /* Pods-SPTransSwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037B5406BA45F6E6AE614DE6C09EA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5286D1E58E62700C08E15 /* SPTransClient.swift in Sources */,
+				5F5A33ACB8EE956C516A66840A3434EA /* Requester.swift in Sources */,
+				7083CD7116B750BDA1DD3590C2230F09 /* SPTransSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		688AAFCE2A4FBD16E6C30C442EFAA619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPTransSwift;
+			target = 2C764256CB58EC08F2B7BC9A6281DD94 /* SPTransSwift */;
+			targetProxy = 1C2BA66DE5E99AA1112B8065F7C73FB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3BBBCD04D0595148D094484F6AC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B59AFD5B4C252C935F4EBB5B9BCB8C /* Pods-SPTransSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPTransSwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPTransSwiftExample/Pods-SPTransSwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPTransSwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B67C46CEE510FB563DAAB22F330DF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D93E27E36055FF99FB45BFF64C33FDD /* SPTransSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPTransSwift/SPTransSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPTransSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPTransSwift/SPTransSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SPTransSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A22EBC00E06111C39F083BFA8921F506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E727CE00669E0B6C2D629C06AF4AD9 /* Pods-SPTransSwiftExample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPTransSwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPTransSwiftExample/Pods-SPTransSwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPTransSwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70C7CEEBB2089FEA746357281E77EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D93E27E36055FF99FB45BFF64C33FDD /* SPTransSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPTransSwift/SPTransSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPTransSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPTransSwift/SPTransSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SPTransSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1641F21B06C6CC303C49B6755E83DCDA /* Build configuration list for PBXNativeTarget "Pods-SPTransSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3BBBCD04D0595148D094484F6AC6B /* Debug */,
+				A22EBC00E06111C39F083BFA8921F506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AADA19166C5DE64D2780F769FA389DB /* Build configuration list for PBXNativeTarget "SPTransSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70C7CEEBB2089FEA746357281E77EAF /* Debug */,
+				7B67C46CEE510FB563DAAB22F330DF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
