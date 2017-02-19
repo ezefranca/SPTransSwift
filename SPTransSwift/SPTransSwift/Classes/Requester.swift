@@ -37,6 +37,7 @@ struct Requester {
         guard let URL = URL(string: baseURL + endpoint) else { return }
         let request = NSMutableURLRequest(url: URL as URL)
         
+        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
         request.httpMethod = method.rawValue
         request.allHTTPHeaderFields = headers
         request.httpBody = body.data(using: String.Encoding.utf8, allowLossyConversion: true)

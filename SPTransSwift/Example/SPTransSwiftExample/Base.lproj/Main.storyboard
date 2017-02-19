@@ -22,17 +22,98 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwA-p0-TlS">
-                                <rect key="frame" x="126" y="20" width="122" height="30"/>
+                                <rect key="frame" x="126" y="77" width="122" height="30"/>
                                 <state key="normal" title="Pegar Corredores"/>
                                 <connections>
                                     <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wg-gi-r0N"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irp-6a-dAN">
+                                <rect key="frame" x="126" y="128" width="146" height="30"/>
+                                <state key="normal" title="Buscar Detalhe Linha"/>
+                                <connections>
+                                    <action selector="buscarDetalheLinha:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0YW-kC-t7q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vu-tE-KXu">
+                                <rect key="frame" x="126" y="183" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BBC-fm-u7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9N-7a-lo8">
+                                <rect key="frame" x="126" y="237" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24q-15-KuZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jE-1L-bi3">
+                                <rect key="frame" x="126" y="296" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EKd-pn-8Lt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQk-Q4-kkL">
+                                <rect key="frame" x="126" y="344" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PAH-Zf-Qvg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrj-hR-5ZS">
+                                <rect key="frame" x="126" y="396" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tn7-Yl-RX7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNR-M9-Qdo">
+                                <rect key="frame" x="126" y="448" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yjr-xr-McR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXk-cl-gHW">
+                                <rect key="frame" x="126" y="500" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iNP-Lr-rli"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uO-hT-VxK">
+                                <rect key="frame" x="126" y="559" width="122" height="30"/>
+                                <state key="normal" title="Pegar Corredores"/>
+                                <connections>
+                                    <action selector="pegarCorredores:" destination="BYZ-38-t0r" eventType="touchUpInside" id="adg-RH-ZlU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vwA-p0-TlS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IG7-nj-xqe"/>
-                            <constraint firstItem="vwA-p0-TlS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRo-0F-Df4"/>
+                            <constraint firstItem="irp-6a-dAN" firstAttribute="leading" secondItem="4vu-tE-KXu" secondAttribute="leading" id="44l-xg-ueP"/>
+                            <constraint firstItem="IQk-Q4-kkL" firstAttribute="leading" secondItem="Xrj-hR-5ZS" secondAttribute="leading" id="4Ec-ty-FV1"/>
+                            <constraint firstItem="y9N-7a-lo8" firstAttribute="leading" secondItem="6jE-1L-bi3" secondAttribute="leading" id="6xk-MH-cqE"/>
+                            <constraint firstItem="Xrj-hR-5ZS" firstAttribute="leading" secondItem="tNR-M9-Qdo" secondAttribute="leading" id="8yf-ro-F0J"/>
+                            <constraint firstItem="tNR-M9-Qdo" firstAttribute="leading" secondItem="lXk-cl-gHW" secondAttribute="leading" id="IoC-Tv-aNx"/>
+                            <constraint firstItem="y9N-7a-lo8" firstAttribute="top" secondItem="4vu-tE-KXu" secondAttribute="bottom" constant="24" id="Jjv-HJ-vzH"/>
+                            <constraint firstItem="vwA-p0-TlS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JwX-1p-Miy"/>
+                            <constraint firstItem="4vu-tE-KXu" firstAttribute="top" secondItem="irp-6a-dAN" secondAttribute="bottom" constant="25" id="Kee-8R-sqC"/>
+                            <constraint firstItem="irp-6a-dAN" firstAttribute="top" secondItem="vwA-p0-TlS" secondAttribute="bottom" constant="21" id="ZCN-mp-QOf"/>
+                            <constraint firstItem="lXk-cl-gHW" firstAttribute="top" secondItem="tNR-M9-Qdo" secondAttribute="bottom" constant="22" id="dEy-i2-lll"/>
+                            <constraint firstItem="4vu-tE-KXu" firstAttribute="leading" secondItem="y9N-7a-lo8" secondAttribute="leading" id="f4Q-Qw-sq1"/>
+                            <constraint firstItem="IQk-Q4-kkL" firstAttribute="top" secondItem="6jE-1L-bi3" secondAttribute="bottom" constant="18" id="g8l-3u-YE6"/>
+                            <constraint firstItem="tNR-M9-Qdo" firstAttribute="top" secondItem="Xrj-hR-5ZS" secondAttribute="bottom" constant="22" id="lPO-W5-A2B"/>
+                            <constraint firstItem="Xrj-hR-5ZS" firstAttribute="top" secondItem="IQk-Q4-kkL" secondAttribute="bottom" constant="22" id="oYb-7C-J6M"/>
+                            <constraint firstItem="6jE-1L-bi3" firstAttribute="top" secondItem="y9N-7a-lo8" secondAttribute="bottom" constant="29" id="pba-Ov-hNF"/>
+                            <constraint firstItem="vwA-p0-TlS" firstAttribute="leading" secondItem="irp-6a-dAN" secondAttribute="leading" id="plE-2Q-zsE"/>
+                            <constraint firstItem="6jE-1L-bi3" firstAttribute="leading" secondItem="IQk-Q4-kkL" secondAttribute="leading" id="q56-S8-IyW"/>
+                            <constraint firstItem="8uO-hT-VxK" firstAttribute="top" secondItem="lXk-cl-gHW" secondAttribute="bottom" constant="29" id="tO8-gY-kKh"/>
+                            <constraint firstItem="lXk-cl-gHW" firstAttribute="leading" secondItem="8uO-hT-VxK" secondAttribute="leading" id="xEZ-yn-8PL"/>
+                            <constraint firstItem="vwA-p0-TlS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="xfe-aC-9E1"/>
                         </constraints>
                     </view>
                 </viewController>

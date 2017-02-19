@@ -14,6 +14,13 @@
 		66E75B788A81BD02936D732A2BCC8A3F /* SPTransSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D8DDF24B226A572EA84C6D0E739D82 /* SPTransSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7083CD7116B750BDA1DD3590C2230F09 /* SPTransSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA3A3D4E54929C324DCA6618BC24B9 /* SPTransSwift-dummy.m */; };
 		8BA5286D1E58E62700C08E15 /* SPTransClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5286B1E58E57600C08E15 /* SPTransClient.swift */; };
+		8BA528701E5964D000C08E15 /* Corredor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5286E1E59646F00C08E15 /* Corredor.swift */; };
+		8BA528741E59766800C08E15 /* Linha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA528731E59766800C08E15 /* Linha.swift */; };
+		8BA528761E59FF9800C08E15 /* Parada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA528751E59FF9800C08E15 /* Parada.swift */; };
+		8BA528781E5A051D00C08E15 /* ChegadaParadaLinha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA528771E5A051D00C08E15 /* ChegadaParadaLinha.swift */; };
+		8BA5287A1E5A05B100C08E15 /* DetalhesChegada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA528791E5A05B100C08E15 /* DetalhesChegada.swift */; };
+		8BA5287C1E5A05BA00C08E15 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5287B1E5A05BA00C08E15 /* Localizacao.swift */; };
+		8BA528801E5A074E00C08E15 /* VeiculoStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5287E1E5A074D00C08E15 /* VeiculoStatus.swift */; };
 		8C8EC0B0B5407FC2E3F28277930E874F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +51,13 @@
 		7227F152FE20BDCAE349E1C8EDC1E1C2 /* Pods-SPTransSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPTransSwiftExample-umbrella.h"; sourceTree = "<group>"; };
 		79D8DDF24B226A572EA84C6D0E739D82 /* SPTransSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPTransSwift-umbrella.h"; sourceTree = "<group>"; };
 		8BA5286B1E58E57600C08E15 /* SPTransClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTransClient.swift; sourceTree = "<group>"; };
+		8BA5286E1E59646F00C08E15 /* Corredor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Corredor.swift; sourceTree = "<group>"; };
+		8BA528731E59766800C08E15 /* Linha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linha.swift; sourceTree = "<group>"; };
+		8BA528751E59FF9800C08E15 /* Parada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parada.swift; sourceTree = "<group>"; };
+		8BA528771E5A051D00C08E15 /* ChegadaParadaLinha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChegadaParadaLinha.swift; sourceTree = "<group>"; };
+		8BA528791E5A05B100C08E15 /* DetalhesChegada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesChegada.swift; sourceTree = "<group>"; };
+		8BA5287B1E5A05BA00C08E15 /* Localizacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		8BA5287E1E5A074D00C08E15 /* VeiculoStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculoStatus.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98ED45BDE95FF2C8B31DBCDDB4DEB899 /* Pods-SPTransSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPTransSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BAD13680B433EB0B44D9ADABBD8EC1E4 /* Pods-SPTransSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPTransSwiftExample-dummy.m"; sourceTree = "<group>"; };
@@ -161,6 +175,13 @@
 			children = (
 				F09CC0EF5DAF129285F9F5E42DAD5ED4 /* Requester.swift */,
 				8BA5286B1E58E57600C08E15 /* SPTransClient.swift */,
+				8BA5286E1E59646F00C08E15 /* Corredor.swift */,
+				8BA528731E59766800C08E15 /* Linha.swift */,
+				8BA528751E59FF9800C08E15 /* Parada.swift */,
+				8BA528771E5A051D00C08E15 /* ChegadaParadaLinha.swift */,
+				8BA528791E5A05B100C08E15 /* DetalhesChegada.swift */,
+				8BA5287B1E5A05BA00C08E15 /* Localizacao.swift */,
+				8BA5287E1E5A074D00C08E15 /* VeiculoStatus.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,8 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA528761E59FF9800C08E15 /* Parada.swift in Sources */,
+				8BA528801E5A074E00C08E15 /* VeiculoStatus.swift in Sources */,
+				8BA528781E5A051D00C08E15 /* ChegadaParadaLinha.swift in Sources */,
 				8BA5286D1E58E62700C08E15 /* SPTransClient.swift in Sources */,
+				8BA5287C1E5A05BA00C08E15 /* Localizacao.swift in Sources */,
+				8BA528701E5964D000C08E15 /* Corredor.swift in Sources */,
 				5F5A33ACB8EE956C516A66840A3434EA /* Requester.swift in Sources */,
+				8BA5287A1E5A05B100C08E15 /* DetalhesChegada.swift in Sources */,
+				8BA528741E59766800C08E15 /* Linha.swift in Sources */,
 				7083CD7116B750BDA1DD3590C2230F09 /* SPTransSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
